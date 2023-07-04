@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="scalculator.css">
+  <title>Document</title>
+</head>
+<body>
+  <button><a href="">My Calculator</a></button>
+    <div class="scienCal">
+        <div class="mainDisplay">
+            <div class="secondaryDisplay" id="secDisplay"></div>
+            <div class="primaryDisplay" id="priDisplay"></div>  
+       </div>
+        <div class="keyPad">
+            <div class="radDeg">
+                <button onclick="radius()" id="red">Rad</button>
+                <button onclick="deg()" id="deg">Deg</button>
+            </div>                    
+            <button onclick="key()" id="expo">x!</button>
+            <button onclick="brac1()" id="brak1">(</button>
+            <button onclick="brac2()" id="brak2">)</button>
+            <button onclick="key(' % ')" id="percentage">%</button>
+            <button onclick="Clear()" id="clear">CE</button>
+            <button onclick="inv()" id="inverseButton">Inv</button>
+            <button onclick="Sin()" id="sine">sin</button>
+            <button onclick="in1()" id="inverseDigit">In</button>
+            <button onclick="key(7)" id="seven" class="keypad">7</button>
+            <button onclick="key(8)" id="eight" class="keypad">8</button>
+            <button onclick="key(9)" id="nine" class="keypad">9</button>
+            <button onclick="key(' / ')" id="divide">/</button>
+            <button onclick="pi()" id="pie">Pi</button>
+            <button onclick="Cos()" id="cosine">cos</button>
+            <button onclick="log()" id="Log">Log</button>
+            <button onclick="key(4)" id="four" class="keypad">4</button>
+            <button onclick="key(5)" id="five" class="keypad">5</button>
+            <button onclick="key(6)" id="six" class="keypad">6</button>
+            <button onclick="key(' * ')" id="multiply">X</button>
+            <button onclick="op()" id="">e</button>
+            <button onclick="Tan()" id="tan">tan</button>
+            <button onclick="sqrt()" id="square">SQRT</button>
+            <button onclick="key(1)" id="one" class="keypad">1</button>
+            <button onclick="key(2)" id="two" class="keypad">2</button>
+            <button onclick="key(3)" id="three" class="keypad">3</button>
+            <button onclick="key(' - ')" id="minus">-</button>
+            <button onclick="result()" id="Result">Ans</button>
+            <button onclick="op()" id="">Exp</button>
+            <button onclick="op()" id="">x<sup>y</sup></button>
+            <button onclick="key(0)" id="zero" class="keypad">0</button>
+            <button onclick="key('.')" id="decimal" class="keypad">.</button>
+            <button onclick="calculate()" id="eqaul" class="Equal">=</button>
+            <button onclick="key(' + ')" id="addition">+</button>
+        </div>
+    </div>
+
+    <script src="Scalculator.js"></script>
+</body>
+</html>
